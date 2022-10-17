@@ -1,0 +1,11 @@
+name: Sample github actions
+description: A sample custom action that prints log message
+
+inputs:
+  LOG_MESSAGE:
+    description: log message
+    required: true
+
+runs:
+  using: 'node16'
+  main: 'dist/index.js'
