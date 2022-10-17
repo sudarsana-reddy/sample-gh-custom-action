@@ -5,6 +5,10 @@ inputs:
   LOG_MESSAGE:
     description: log message
     required: true
+  
+  USERNAME:
+    description: user inout
+    required: true
 
 runs:
   using: 'node16'

@@ -2820,9 +2820,11 @@ var __webpack_exports__ = {};
 const core = __nccwpck_require__(824);
 
 const LOG_MESSAGE = core.getInput("LOG_MESSAGE");
+const USERNAME = core.getInput("USERNAME");
 
 async function runAction(){
     core.info(`LOG_MESSAGE: ${LOG_MESSAGE}`);
+    core.info(`USERNAME: ${USERNAME}`);
 }
 
 runAction();
